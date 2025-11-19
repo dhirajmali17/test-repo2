@@ -3,7 +3,7 @@ on:
   push:
 jobs:
   docker:
-    runs-on: [self-hosted,ubuntu]
+    runs-on: [self-hosted, Linux]
     steps:
       -
         name: Set up QEMU test
